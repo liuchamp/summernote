@@ -16,8 +16,8 @@
     "email": "<susukang98@gmail.com>"
   },
   "main": "dist/summernote.js",
-  "engines" : { 
-    "node" : ">=17.0.0" 
+  "engines": {
+    "node": ">=17.0.0"
   },
   "scripts": {
     "dev": "eslint config && webpack serve --config=./config/webpack.development.js --progress",
@@ -104,6 +104,7 @@
     "webpack-bundle-analyzer": "^4.4.0",
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^4.3.0",
+    "ajax": "^0.0.4",
     "zip-webpack-plugin": "^4.0.1"
   }
 }
